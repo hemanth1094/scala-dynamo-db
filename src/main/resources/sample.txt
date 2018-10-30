@@ -31,7 +31,7 @@ object TableCreation extends App {
   val req = new QueryRequest("content")
   logger.info("count before insert: " + contentFileInfoRepo.getContents("content").length)
 
-  val localTextFilePath = "src/main/resources/sample.txt"
+  val localTextFilePath = "10806563.txt"
   val codec = Codec("UTF-8")
   codec.onMalformedInput(CodingErrorAction.REPLACE)
   codec.onUnmappableCharacter(CodingErrorAction.REPLACE)

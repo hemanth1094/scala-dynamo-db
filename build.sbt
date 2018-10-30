@@ -11,5 +11,6 @@ libraryDependencies ++= Seq(
   "com.typesafe.akka" %% "akka-http" % "10.1.3",
   "ch.qos.logback" % "logback-classic" % "1.2.3",
   "com.gu" %% "scanamo" % "1.0.0-M7",
-  "org.jsoup" % "jsoup" % "1.8.3"
+  "org.jsoup" % "jsoup" % "1.8.3",
+  "org.mockito" % "mockito-core" % "1.9.5"
 )
